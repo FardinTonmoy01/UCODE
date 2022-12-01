@@ -174,6 +174,15 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #643B70;
+   color: white;
+   text-align: center;
+}
 
 
 </style>
@@ -192,7 +201,7 @@ img {vertical-align: middle;}
   <nav class="site-navigation">
     <ul class="nav">
       <li><a href="#" style="color:#643B70;"><b>Leaderboard</b></a></li> 
-      <li><a href="#" style="color:#643B70;"><b>Sign Up</b></a></li> 
+      <li><a href="signup.php" style="color:#643B70;"><b>Sign Up</b></a></li> 
       <li>
          <a href="ucode login.php" class="button"><b>Login</b></a> 
       </li> 
@@ -267,9 +276,8 @@ function showSlides(n) {
 
 
 <div class="footer">
-        <p>UCODE</p>
-        <p>Copyright © 2022 All rights reserved</p>
-        <p>Powered By <b>Illusion</b></p>
+       
+<p><b>UCODE</b> - Powered By <b>Illusion</b></p>
 </div>
 
   

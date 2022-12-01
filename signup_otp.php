@@ -192,7 +192,7 @@ span.em {
 
 
 <div class="column">
-<form action="/action_page.php" method="post">
+<form action="signup_otp1.php" method="post">
   <div class="imgcontainer">
     <img src="signup_pic.png" alt="Avatar" class="avatar">
   </div>

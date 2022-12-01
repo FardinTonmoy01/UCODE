@@ -192,18 +192,18 @@ span.em {
 
 
 <div class="column">
-<form action="/action_page.php" method="post">
+<form action="signup_pass1.php" method="post">
   <div class="imgcontainer">
     <img src="signup_pic.png" alt="Avatar" class="avatar">
   </div>
 
   <div class="container">
-    <label for="psw1"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw1" required>
+    <label for="pass1"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="pass1" required>
   
 
-    <label for="psw2"><b>Confirm Password</b></label>
-    <input type="password" placeholder="Re-enter Password" name="psw2" required>
+    <label for="pass2"><b>Confirm Password</b></label>
+    <input type="password" placeholder="Re-enter Password" name="pass2" required>
     
         
     <button type="submit">Save</button>

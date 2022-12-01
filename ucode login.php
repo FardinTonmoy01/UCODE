@@ -79,13 +79,7 @@ a:hover {
   background-color: #A6A6A6;
 }
 
-.footer {
-  text-align: center;
-  padding: 0.1px ;
-  background-color:#643B70 ;
-  color: white; 
-  margin: 35em 0em 0em 0em;
-}
+
 
 .column {
    
@@ -95,92 +89,12 @@ a:hover {
 }
 
 
-.mySlides {display: none}
-img {vertical-align: middle;}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 870px;
-  position: relative;
-  margin: auto;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: red;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: red;
-  font-size: 12px;
-  font-weight: bold;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
 
 
 form {border: 6px solid #643B70;
-width: 40% ;
+width: 25% ;
 height: 50%;
-margin: 17px 30px 0px 500px;
+margin: 50px 30px 0px 627px;
 
 }
 
@@ -202,7 +116,7 @@ button {
   cursor: pointer;
   width: 100%;
   font-size: 30px;
-  border-radius: 50%;
+  border-radius: 100%;
 }
 
 button:hover {
@@ -242,6 +156,15 @@ span.psw {
   }
   
 }
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #643B70;
+   color: white;
+   text-align: center;
+}
 
 
 </style>
@@ -260,7 +183,7 @@ span.psw {
   <nav class="site-navigation">
     <ul class="nav">
       <li><a href="#" style="color:#643B70;"><b>Leaderboard</b></a></li> 
-      <li><a href="#" style="color:#643B70;"><b>Sign Up</b></a></li> 
+      <li><a href="signup.php" style="color:#643B70;"><b>Sign Up</b></a></li> 
       <li>
          <a href="ucode.php" class="button"><b>Go Back</b></a> 
       </li> 
@@ -306,9 +229,7 @@ span.psw {
 
 
 <div class="footer">
-        <p>UCODE</p>
-        <p>Copyright © 2022 All rights reserved</p>
-        <p>Powered By <b>Illusion</b></p>
+<p><b>UCODE</b> - Powered By <b>Illusion</b></p>
 </div>
 
   
