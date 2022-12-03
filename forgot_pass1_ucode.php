@@ -90,7 +90,6 @@ a:hover {
 
 
 
-
 form {border: 6px solid #643B70;
 width: 25% ;
 height: 50%;
@@ -116,7 +115,7 @@ button {
   cursor: pointer;
   width: 100%;
   font-size: 30px;
-  border-radius: 100%;
+  border-radius: 50%;
 }
 
 button:hover {
@@ -125,22 +124,13 @@ button:hover {
 
 
 
-.imgcontainer {
-  text-align: center;
-  margin: 24px 0 12px 0;
-}
-
-img.avatar {
-  width: 20%;
-  border-radius: 50%;
-}
 
 .container {
   padding: 16px;
   
 }
 
-span.psw {
+span.em {
   float: right;
   padding-top: 0px;
  
@@ -148,14 +138,15 @@ span.psw {
 }
 
 /* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
-  span.psw {
+@media screen and (max-width: 600px) {
+  span.em {
      display: block;
      float: none;
      
   }
   
 }
+
 .footer {
    position: fixed;
    left: 0;
@@ -183,9 +174,9 @@ span.psw {
   <nav class="site-navigation">
     <ul class="nav">
       <li><a href="#" style="color:#643B70;"><b>Leaderboard</b></a></li> 
-      <li><a href="signup.php" style="color:#643B70;"><b>Sign Up</b></a></li> 
+      <li><a href="ucode.php" style="color:#643B70;"><b>Go Back</b></a></li>
       <li>
-         <a href="ucode.php" class="button"><b>Go Back</b></a> 
+         <a href="ucode login.php" class="button"><b>Login</b></a></li> 
       </li> 
     </ul>
   </nav>
@@ -193,26 +184,20 @@ span.psw {
 
 
 <div class="column">
-<form action="ucode login1.php" method="post">
-  <div class="imgcontainer">
-    <img src="Login_logo.png" alt="Avatar" class="avatar">
-  </div>
+<form action="forgot_pass2_ucode.php" method="post">
+  
 
   <div class="container">
-    <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter UIU Id." name="uname" required>
+    <label for="id"><b>UIU ID</b></label>
+    <input type="text" placeholder="Enter UIU Id." name="id" required>
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-    <label>
-      <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label>
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter UIU Email" name="email" required>
+    
         
-    <button type="submit">Login</button>
+    <button type="submit">Continue</button>
 
-    <div class="container">
-    <span class="psw">Forgot <a href="forgot_pass1_ucode.php" style="color:Red;">password?</a></span>
-    </div>
+    
   </div>
 
   
