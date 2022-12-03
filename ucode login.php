@@ -193,7 +193,7 @@ span.psw {
 
 
 <div class="column">
-<form action="/action_page.php" method="post">
+<form action="ucode login1.php" method="post">
   <div class="imgcontainer">
     <img src="Login_logo.png" alt="Avatar" class="avatar">
   </div>
